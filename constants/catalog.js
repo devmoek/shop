@@ -81,11 +81,5 @@ const CATALOG = [
         name: 'Reyg',
         img: 'https://i.ibb.co/mNTWx97/2.jpg',
         price: 14,
-    },
-    {
-        id: 'el13',
-        name: 'Miked',
-        img: '../../assets/img/nike.jpg',
-        price: 14,
     }
 ];
