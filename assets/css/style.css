@@ -271,6 +271,10 @@ footer a:hover {
     color: #34C9BC;
 }
 
+.switem {
+    text-align: right;
+}
+
 @media only screen and (max-width: 768px) {
     .nav-pills>li {
         float: none;
@@ -292,25 +296,22 @@ footer a:hover {
     .intro .img-responsive {
         height: 500px;
     }
-
-    .switem {
-        text-align: center;
-    }
 }
 
 @media only screen and (min-width: 1024px) {
-    .switem {
-         text-align: center;
-    }
-
     .text-justify {
         font-size: 20px;
-        text-align: justify;
-        
+        text-align: justify;   
     }
     
     .img-circle {
         width: 90%;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .switem {
+        text-align: center;
     }
 }
 

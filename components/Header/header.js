@@ -11,7 +11,6 @@ class Header {
             </div>
         
         </div>
-        
         `;
 
         ROOT_HEADER.innerHTML = html;
